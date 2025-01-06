@@ -1,3 +1,31 @@
+/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/
 public class CodeStruct {
 	public int D[] = new int[16];	// Data array
 	public int Co[] = new int[5];	// Outer check-bit array
