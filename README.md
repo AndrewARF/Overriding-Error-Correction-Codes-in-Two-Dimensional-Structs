@@ -1,3 +1,13 @@
+The relentless pursuit of highly reliable communication systems demands research and development of algorithms capable of identifying
+and correcting errors that may occur during data transmission and storage. Reliability is even more critical in critical systems and/or
+those that are difficult to access, such as space, passenger transportation, and finance. In this scenario, the Error Correction Code (ECC) 
+is a fundamental tool to provide a certain degree of reliability to systems. This work proposes a new technique to increase the error correction
+capacity of ECCs based on region overlapping. More specifically, we propose correcting data areas protected by more than one ECC, allowing for
+the inference of logic correlating ECCs, thus enhancing their error detection and correction capability. The work focuses on bidimensional 
+codeword organizations, known as 2D-ECCs, which constitute a hierarchical arrangement of ECCs. The proposed overlapping approach will be
+evaluated in some 2D organizations, comparing error correction and detection capabilities, scalability, and reliability.
+
+
 
 public class CodeStruct {
 	public int D[] = new int[16];	// Data array
