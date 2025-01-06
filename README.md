@@ -7,7 +7,7 @@ the inference of logic correlating ECCs, thus enhancing their error detection an
 codeword organizations, known as 2D-ECCs, which constitute a hierarchical arrangement of ECCs. The proposed overlapping approach will be
 evaluated in some 2D organizations, comparing error correction and detection capabilities, scalability, and reliability.
 
-
+```
 
 public class CodeStruct {
 	public int D[] = new int[16];	// Data array
@@ -63,10 +63,10 @@ public class CodeStruct {
 		return str;
 	}
 }
+```
 
 
-
-
+```
 public class CodeStructWithErrror extends CodeStruct
 {
 	public int recCo[] = new int[5];	// Array storing the computation of the Outer Hamming in the decoding process 
@@ -162,9 +162,9 @@ public class CodeStructWithErrror extends CodeStruct
 		return str;
 	}
 }
+```
 
-
-
+```
 public class Decoder { 
 // 5-bit Hamming code covers up to 26-bit data; 16 bits are used with array addresses, the remaining receive -1
 // 									     0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
@@ -321,3 +321,4 @@ public class MainSystem {
 		System.out.println("Duration: " + duration + " ns");
 	}
 }
+```
